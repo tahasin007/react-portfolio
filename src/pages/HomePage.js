@@ -12,16 +12,13 @@ const HomePage = () => {
           <span>Tahasin Mahmud</span>
         </h1>
         <p className='h-sub-text'>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          aperiam impedit inventore velit, eveniet repellat corrupti doloribus
-          quisquam distinctio? Laborum, harum. Blanditiis obcaecati alias sit!
-          Voluptate soluta voluptatum fuga sit?
+          Full Stack Software Developer
         </p>
         <div className='icons'>
           <Link to='' className='icon-holder'>
-            <FontAwesomeIcon icon={faGithub} className='icon gh'/>
+            <FontAwesomeIcon icon={faGithub} className='icon github'/>
           </Link>
-          <Link to='' class='icon-holder'>
+          <Link to='' className='icon-holder'>
             <FontAwesomeIcon icon={faLinkedin} className='icon li'/>
           </Link>
         </div>

@@ -1,19 +1,91 @@
-.App{
-    .sidebar{
+.App {
+    .sidebar {
         width: 15%;
         height: 100vh;
         background-color: #812516;
         position: fixed;
         border-right: 1rem;
+        z-index: 111;
+        transform-origin: left;
+
+        @media screen and(max-width:1000px) {
+            transform: translateX(-100%);
+            width: 30%;
+            transition: all .3s ease-in-out;
+        }
+
+        @media screen and(max-width:411px) {
+            width: 40%;
+        }
     }
 
-    .main-content{
+    .nav-toggle {
+        @media screen and(max-width:1000px) {
+            transform: translateX(0);
+            transition: all .3s ease-in-out;
+        }
+    }
+
+    .main-content {
         width: 85%;
         margin-left: 15%;
-        background-color: #7F7F7F;
+        background-color: rgba($color: #812516, $alpha: 0.8);
         min-height: 100vh;
         background-image: url(../images/dots.svg);
         display: grid;
         position: relative;
+
+        .content {
+            margin: 2rem 6rem;
+            @media screen and(max-width:1000px) {
+                margin: 1.5rem 5rem;
+            }
+            @media screen and(max-width:411px) {
+                margin: 1rem 3.5rem;
+            }
+        }
+
+        @media screen and(max-width:1000px) {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}
+
+.nav-btn {
+    position: absolute;
+    z-index: 6;
+    right: 10%;
+    top: 10%;
+    width: 5rem;
+    height: 5rem;
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .line1,
+    .line2,
+    .line3 {
+        height: .3rem;
+        width: 80%;
+        display: none;
+        background-color: #812516;
+        pointer-events: none;
+        border-radius: 20px;
+
+        &:not(:last-child) {
+            margin-bottom: .5rem;
+        }
+    }
+
+    @media screen and(max-width:1000px) {
+        display: block;
+
+        .line1,
+        .line2,
+        .line3 {
+            display: block;
+        }
     }
 }

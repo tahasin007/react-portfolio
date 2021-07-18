@@ -1,8 +1,13 @@
 @import './styles/layout.scss';
 @import './styles/navbar.scss';
 @import './styles/typography.scss';
+@import './styles/title.scss';
+@import './styles/about.scss';
+@import './styles/skill';
+@import './styles/contact.scss';
+@import './styles/portfolios.scss';
 
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -13,4 +18,17 @@ body {
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
+    overflow-x: hidden;
+}
+
+@media screen and(max-width:411px) {
+    html{
+        font-size: 70%;
+    }
+}
+
+@media screen and(max-width:1000px) {
+    html {
+        font-size: 85%;
+    }
 }

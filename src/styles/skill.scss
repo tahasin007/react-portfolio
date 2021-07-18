@@ -1,0 +1,218 @@
+.skill-section {
+    padding: 4rem 0; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hexagon {
+    position: relative;
+    width: 6rem;
+    height: 2.9rem;
+    margin: 0;
+    &::before,
+    &::after{
+        z-index: 9;
+        content: "";
+        position: absolute;
+        width: 0;
+        left: 0;
+        border-left: 3rem solid transparent;
+        border-right: 3rem solid transparent;
+    }
+    &::after {
+        bottom: 100%;
+        border-bottom: 2rem solid #64C7CC;
+    }
+
+    &::before {
+        top: 100%;
+        width: 0;
+        border-top: 2rem solid #64C7CC;
+    }
+}
+
+.skill{
+    display: inline-block;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    cursor: pointer;
+    margin: 3rem 1rem;
+ }
+
+.skill:hover {
+    opacity: 0.9;
+}
+
+.react {
+    background: #4bc3ee;
+
+}
+
+.react:after {
+    border-bottom-color: #4bc3ee;
+
+}
+
+.react:before {
+    border-top-color: #4bc3ee;
+}
+
+.vscode {
+    background: #507bc5;
+}
+
+.vscode::before {
+    border-top-color: #507bc5;
+}
+
+.vscode:after {
+    border-bottom-color: #507bc5;
+}
+
+
+.nodejs {
+    background: #83cc29;
+}
+
+.nodejs:after {
+    border-bottom-color: #83cc29;
+}
+
+.nodejs:before {
+    border-top-color: #83cc29;
+}
+
+.express {
+    background: #ccc;
+}
+
+.express:after {
+    border-bottom-color: #ccc;
+}
+
+.express:before {
+    border-top-color: #ccc;
+}
+
+
+.python {
+    background: #5245ca;
+}
+
+.python:after {
+    border-bottom-color: #5245ca;
+}
+
+.python:before {
+    border-top-color: #5245ca;
+}
+
+.redux {
+    background: #684da7;
+}
+
+.redux:after {
+    border-bottom-color: #684da7;
+}
+
+.redux:before {
+    border-top-color: #684da7;
+}
+
+.js {
+    background: #afbb09;
+}
+
+.js:after {
+    border-bottom-color: #afbb09;
+}
+
+.js:before {
+    border-top-color: #afbb09;
+}
+
+.bt {
+    background: #532181;
+}
+
+.bt:after {
+    border-bottom-color: #532181;
+}
+
+.bt:before {
+    border-top-color: #532181;
+}
+
+.gh {
+    background: #c52828;
+}
+
+.gh:after {
+    border-bottom-color: #c52828;
+}
+
+.gh:before {
+    border-top-color: #c52828;
+}
+
+.md {
+    background: #1a771f;
+}
+
+.md:after {
+    border-bottom-color: #1a771f;
+}
+
+.md:before {
+    border-top-color: #1a771f;
+}
+
+.sql {
+    background: #308FB7;
+}
+
+.sql:after {
+    border-bottom-color: #308FB7;
+}
+
+.sql:before {
+    border-top-color: #308FB7;
+}
+
+.jq {
+    background: #20607B;
+}
+
+.jq:after {
+    border-bottom-color: #20607B;
+}
+
+.jq:before {
+    border-top-color: #20607B;
+}
+
+.html {
+    background: #D56530;
+}
+
+.html:after {
+    border-bottom-color: #D56530;
+}
+
+.html:before {
+    border-top-color: #D56530;
+}
+
+.css {
+    background: #3084D5;
+}
+
+.css:after {
+    border-bottom-color: #3084D5;
+}
+
+.css:before {
+    border-top-color: #3084D5;
+}
