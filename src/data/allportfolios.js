@@ -1,81 +1,77 @@
 import port1 from '../images/portImages/port1.jpg'
-import port2 from '../images/portImages/port2.jpg'
-import port3 from '../images/portImages/port3.jpg'
-import port4 from '../images/portImages/port4.jpg'
-import port5 from '../images/portImages/port5.jpg'
-import port6 from '../images/portImages/port6.jpg'
+import port2 from '../images/portImages/port2.PNG'
+import port3 from '../images/portImages/port3.PNG'
+import port4 from '../images/portImages/port4.PNG'
+import port5 from '../images/portImages/port5.PNG'
+import port6 from '../images/portImages/port6.png'
 import port7 from '../images/portImages/port7.jpg'
 
 const portfolios = [
   {
     id: 1,
-    category: 'MERN',
-    link1: 'https://www.youtube.com/',
-    link2: 'www.github.com',
+    category: 'NODEJS',
+    link1: 'https://github.com/tahasin007/Database-Group-7',
     icon1: 'G',
-    icon2: 'L',
     image: port1,
-    title: 'Autodesk Maya',
+    title: 'Database management system using Node and Oracle Sql',
   },
   {
     id: 2,
-    category: 'REACTJS',
-    link1: 'www.youtube.com',
-    link2: 'www.github.com',
+    category: 'NODEJS',
+    link1:
+      'https://github.com/tahasin007/appointment-system-with-real-time-messaging-and-video-chat',
+    link2: 'https://angthas.herokuapp.com/',
     icon1: 'G',
     icon2: 'L',
     image: port2,
-    title: 'Python Web Scrapping',
+    title:
+      'Online appointment appointment system for instant messaging and video chatting with doctors',
   },
   {
     id: 3,
-    category: 'BOOTSTRAP',
-    link1: 'www.youtube.com',
-    link2: 'www.github.com',
+    category: 'MERN',
+    link1: 'https://github.com/tahasin007/mern-e-commerce-app',
+    link2: 'https://ecom007.herokuapp.com/',
     icon1: 'G',
     icon2: 'L',
     image: port3,
-    title: 'Autodesk Maya',
+    title: 'Mern e-commerce shop',
   },
   {
     id: 4,
-    category: 'PYTHON',
-    link1: 'www.youtube.com',
+    category: 'REACTJS',
+    link1: 'https://github.com/tahasin007/react-portfolio',
     link2: 'www.github.com',
     icon1: 'G',
     icon2: 'L',
     image: port4,
-    title: 'Vanilla Javascript Website',
+    title: 'Portfolio website with Reactjs',
   },
   {
     id: 5,
-    category: 'NODEJS',
-    link1: 'www.youtube.com',
-    link2: 'www.github.com',
+    category: 'BOOTSTRAP',
+    link1: 'https://github.com/tahasin007/responsive-webpage-with-bootstarp4',
+    link2: 'https://tahasin007.github.io/responsive-webpage-with-bootstarp4/',
     icon1: 'G',
     icon2: 'L',
     image: port5,
-    title: 'Getting Started With React',
+    title: 'Bootstrap responsive webpage',
   },
   {
     id: 6,
-    category: 'NODEJS',
-    link1: 'www.youtube.com',
-    link2: 'www.github.com',
+    category: 'C++',
+    link1: 'https://github.com/tahasin007/Road-Runner-With-OpenGL',
     icon1: 'G',
-    icon2: 'L',
     image: port6,
-    title: 'Vanilla Javascript Website',
+    title: 'Simple 2D game using C++ and OpenGL',
   },
   {
     id: 7,
-    category: 'BOOTSTRAP',
-    link1: 'www.youtube.com',
-    link2: 'www.github.com',
+    category: 'PYTHON',
+    link1: 'https://github.com/tahasin007/character-recognition-with-CNN',
     icon1: 'G',
-    icon2: 'L',
     image: port7,
-    title: 'Vanilla Javascript Website',
+    title: 'Bangla character recognition using Convolutional Neural Network',
   },
 ]
 

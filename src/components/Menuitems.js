@@ -1,4 +1,8 @@
 import React from 'react'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
+
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Menuitems = ({ menuItems }) => {
   return (
@@ -11,16 +15,20 @@ const Menuitems = ({ menuItems }) => {
               <ul className='hover-items'>
                 <li>
                   <a href={item.link1} target='_blank' rel='noreferrer'>
-                    {item.icon1}
+                    <FontAwesomeIcon icon={faGithub}/>
                   </a>
-                  <a herf={item.link2} target='_blank' rel='noreferrer'>
-                    {item.icon2}
-                  </a>
+                  {item.link2 ? (
+                    <a href={item.link2} target='_blank' rel='noreferrer'>
+                      <FontAwesomeIcon icon={faLink} />
+                    </a>
+                  ) : (
+                    ''
+                  )}
                 </li>
               </ul>
             </div>
             <h5>{item.title}</h5>
-            <p>Placeholder paragraph</p>
+            {/* <p>Placeholder paragraph</p> */}
           </div>
         )
       })}

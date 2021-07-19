@@ -1,6 +1,6 @@
 .App {
     .sidebar {
-        width: 15%;
+        width: 13rem;
         height: 100vh;
         background-color: #812516;
         position: fixed;
@@ -10,12 +10,12 @@
 
         @media screen and(max-width:1000px) {
             transform: translateX(-100%);
-            width: 30%;
+            width: 20rem;
             transition: all .3s ease-in-out;
         }
 
         @media screen and(max-width:411px) {
-            width: 40%;
+            width: 25rem;
         }
     }
 

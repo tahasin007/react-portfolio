@@ -4,6 +4,7 @@ import Categories from '../components/Categories'
 import Menuitems from '../components/Menuitems'
 import portfolios from '../data/allportfolios'
 import { useState } from 'react'
+import Meta from '../components/Meta'
 
 const allCategories = [
   'All',
@@ -25,6 +26,8 @@ const PortfolioPage = () => {
     setMenuItems(filteredData)
   }
   return (
+    <>
+    <Meta title={'My Portfolios'}/>
     <div className='portfolio-page'>
       <div className='title-portfolio'>
         <Title title={`Portfolios`} span={`Portfolios`} />
@@ -34,6 +37,7 @@ const PortfolioPage = () => {
         <Menuitems menuItems={menuItems} />
       </div>
     </div>
+    </>
   )
 }
 
