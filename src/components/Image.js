@@ -1,5 +1,6 @@
 import React from 'react'
 import avatar from '../images/avatar.jpg'
+import { Link } from 'react-router-dom'
 
 const Image = () => {
   return (
@@ -31,7 +32,15 @@ const Image = () => {
           </div>
         </div>
         <div className='btn-cv'>
-          <button className='btn'>Download CV</button>
+          <Link
+            to={{
+              pathname:
+                'https://drive.google.com/file/d/1SY4cTFsr5C7HDsRtaXDBB7SfnzaRBBfO/view?usp=sharing',
+            }}
+            target='_blank'
+          >
+            <button className='btn'>Download CV</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -41,7 +41,7 @@ const portfolios = [
     id: 4,
     category: 'REACTJS',
     link1: 'https://github.com/tahasin007/react-portfolio',
-    link2: 'www.github.com',
+    link2: 'https://my-portfolio-61.netlify.app/',
     icon1: 'G',
     icon2: 'L',
     image: port4,
