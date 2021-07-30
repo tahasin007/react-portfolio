@@ -10,7 +10,7 @@ const Image = () => {
       </div>
       <div className='about-info'>
         <h4>
-          I am <span> Tahasin mahmud</span>
+          <span> Tahasin mahmud</span>
         </h4>
         <p className='about-skill'>
           I am a passionate Full Stack Web Developer having experience of
@@ -35,9 +35,10 @@ const Image = () => {
           <Link
             to={{
               pathname:
-                'https://drive.google.com/file/d/1SY4cTFsr5C7HDsRtaXDBB7SfnzaRBBfO/view?usp=sharing',
+                '/src/asset/Resume of Tahasin Mahmud.pdf',
             }}
             target='_blank'
+            download
           >
             <button className='btn'>Download CV</button>
           </Link>

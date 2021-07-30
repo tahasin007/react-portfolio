@@ -5,11 +5,12 @@ import port4 from '../images/portImages/port4.PNG'
 import port5 from '../images/portImages/port5.PNG'
 import port6 from '../images/portImages/port6.png'
 import port7 from '../images/portImages/port7.jpg'
+import port8 from '../images/portImages/port8.PNG'
 
 const portfolios = [
   {
     id: 1,
-    category: 'NODEJS',
+    category: 'Full Stack Applications',
     link1: 'https://github.com/tahasin007/Database-Group-7',
     icon1: 'G',
     image: port1,
@@ -17,7 +18,7 @@ const portfolios = [
   },
   {
     id: 2,
-    category: 'NODEJS',
+    category: 'Full Stack Applications',
     link1:
       'https://github.com/tahasin007/appointment-system-with-real-time-messaging-and-video-chat',
     link2: 'https://angthas.herokuapp.com/',
@@ -29,7 +30,7 @@ const portfolios = [
   },
   {
     id: 3,
-    category: 'MERN',
+    category: 'Full Stack Applications',
     link1: 'https://github.com/tahasin007/mern-e-commerce-app',
     link2: 'https://ecom007.herokuapp.com/',
     icon1: 'G',
@@ -39,17 +40,17 @@ const portfolios = [
   },
   {
     id: 4,
-    category: 'REACTJS',
+    category: 'Web Pages',
     link1: 'https://github.com/tahasin007/react-portfolio',
     link2: 'https://my-portfolio-61.netlify.app/',
     icon1: 'G',
     icon2: 'L',
     image: port4,
-    title: 'Portfolio website with Reactjs',
+    title: 'Portfolio website with React JS',
   },
   {
     id: 5,
-    category: 'BOOTSTRAP',
+    category: 'Web Pages',
     link1: 'https://github.com/tahasin007/responsive-webpage-with-bootstarp4',
     link2: 'https://tahasin007.github.io/responsive-webpage-with-bootstarp4/',
     icon1: 'G',
@@ -67,11 +68,21 @@ const portfolios = [
   },
   {
     id: 7,
-    category: 'PYTHON',
+    category: 'Machine Learning',
     link1: 'https://github.com/tahasin007/character-recognition-with-CNN',
     icon1: 'G',
     image: port7,
     title: 'Bangla character recognition using Convolutional Neural Network',
+  },
+  {
+    id: 8,
+    category: 'Web Pages',
+    link1: 'https://github.com/tahasin007/react-admin-dashboard',
+    link2: 'https://react-admin-dashboard-61.netlify.app/',
+    icon1: 'G',
+    icon2: 'L',
+    image: port8,
+    title: 'React JS admin dashboard',
   },
 ]
 
