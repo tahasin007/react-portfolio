@@ -35,7 +35,7 @@ const Image = () => {
           <Link
             to={{
               pathname:
-                '/src/asset/Resume of Tahasin Mahmud.pdf',
+                'https://drive.google.com/file/d/1ZY3hqbQVSeO0GOv74STRMVe2Zu7GBMHK/view?usp=sharing',
             }}
             target='_blank'
             download
