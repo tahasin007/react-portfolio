@@ -35,10 +35,9 @@ const Image = () => {
           <Link
             to={{
               pathname:
-                'https://drive.google.com/file/d/1ZY3hqbQVSeO0GOv74STRMVe2Zu7GBMHK/view?usp=sharing',
+                'https://drive.google.com/file/d/16q0EDnYVESMRACVXoJ7Ud73h0j9p9OdS/view?usp=sharing',
             }}
             target='_blank'
-            download
           >
             <button className='btn'>Download CV</button>
           </Link>
